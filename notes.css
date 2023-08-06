@@ -1,0 +1,80 @@
+#image{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px 120px;
+   
+   
+}
+#image img{
+    
+    width: 40vw;
+    height: auto;
+    box-shadow: 10px 20px 30px rgb(238, 233, 233);
+    border-radius: 30%;
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#content{
+    text-transform: capitalize;
+    
+    padding-left:90px;
+
+}
+#greet{
+    font-weight:900;
+}
+#content h3{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.multiple-text{
+    color: rgb(7, 0, 0);
+    font-weight: 700;
+}
+/* form ke liye code */
+#form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+#register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media(max-width:500px){
+    .body{
+        flex-direction: column;
+    }
+    #image img{
+    
+        width: 90vw;
+        height: auto;
+        box-shadow: 10px 20px 30px rgb(238, 233, 233);
+        border-radius: 30%;
+        
+    
+    }
+}
+#image img:hover{
+    width: 41vw;
+    height: auto;
+    opacity: 0.7;
+}
+
